@@ -91,7 +91,7 @@ function App() {
           </Grid>
           <Grid item xs={12} sm={12} md={4}>
             <FormControl fullWidth>
-              <Button variant="contained" onClick={handleSearch}>
+              <Button style={{height: 50}} variant="contained" onClick={handleSearch}>
                 Search
               </Button>
             </FormControl>
