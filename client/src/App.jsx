@@ -97,7 +97,7 @@ function App() {
             </FormControl>
           </Grid>
         </Grid>
-        <div style={{ height: 800, width: "100%", marginTop: "15px" }}>
+        <div style={{ height: 700, width: "100%", marginTop: "15px" }}>
           <DataGrid rows={rowsData} columns={columns} />
         </div>
       </Container>
